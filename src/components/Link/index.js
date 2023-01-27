@@ -1,7 +1,7 @@
-function Link(props) {
+const Link = ({url, span}) => {
   return (
-    <a href={props.url} target="_blank" rel="noreferrer">
-      <span>{props.span}</span>
+    <a href={url} target="_blank" rel="noreferrer">
+      <span>{span}</span>
     </a>
   );
 }
